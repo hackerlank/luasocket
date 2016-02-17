@@ -1,0 +1,18 @@
+This is the LuaSocket 3.0-rc1. It has been tested on Windows 7, Mac OS X,
+and Linux. 
+
+Please use the project page at GitHub 
+
+    https://github.com/diegonehab/luasocket
+
+to file bug reports or propose changes. 
+
+Have fun,
+Diego Nehab.
+
+修改lua5.3.1makefile文件
+在cfg中加 -fPIC 在进行编译安装
+
+替换luasocket中标示
+luaL_reg -> luaL_Reg
+luaL_checkint -> luaL_checkinteger
